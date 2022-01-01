@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.10.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle libraryexpress@1.0.0~prestart: libraryexpress@1.0.0
+6 silly lifecycle libraryexpress@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle libraryexpress@1.0.0~start: libraryexpress@1.0.0
+8 verbose lifecycle libraryexpress@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle libraryexpress@1.0.0~start: PATH: C:\Users\user\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\case\CaseStudy-ErrorHunt\node_modules\.bin;C:\Program Files (x86)\nodejs;C:\Program Files (x86)\nodejs;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin
+10 verbose lifecycle libraryexpress@1.0.0~start: CWD: D:\case\CaseStudy-ErrorHunt
+11 silly lifecycle libraryexpress@1.0.0~start: Args: [ '/d /s /c', 'node app.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at process.kill (internal/process/per_thread.js:189:13)
+12 verbose stack     at process.listener (C:\Users\user\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at process.emit (events.js:214:15)
+13 verbose cwd D:\case\CaseStudy-ErrorHunt
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v12.10.0
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
